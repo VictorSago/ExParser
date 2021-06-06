@@ -1,0 +1,31 @@
+PARSE TREE:
+AssignmentNode
+	IDENT avar
+	ASSIGN_OP =
+	ExpressionNode
+		TermNode
+			FactorNode
+				INT_LIT 1.0
+		ADD_OP +
+		ExpressionNode
+			TermNode
+				FactorNode
+					INT_LIT 2.0
+			ADD_OP +
+			ExpressionNode
+				TermNode
+					FactorNode
+						INT_LIT 3.0
+				SUB_OP -
+				ExpressionNode
+					TermNode
+						FactorNode
+							INT_LIT 10.0
+						DIV_OP /
+						TermNode
+							FactorNode
+								INT_LIT 5.0
+	SEMICOLON ;
+
+EVALUATION:
+avar = 4.0
