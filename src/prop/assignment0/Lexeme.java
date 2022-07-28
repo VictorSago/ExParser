@@ -1,25 +1,25 @@
 package prop.assignment0;
 
 public class Lexeme {
-	private Object value;
-	private Token token;
+    private Object value;
+    private Token token;
 
-	public Lexeme(Object value, Token token) {
-		this.value = value;
-		this.token = token;
-		System.out.println("Lexeme:" + value + " " + token);
-	}
+    public Lexeme(Object value, Token token) {
+        this.value = value;
+        this.token = token;
+        System.out.println("Lexeme:" + value + " " + token);
+    }
 
-	public Object value() {
-		return value;
-	}
+    public Object value() {
+        return value;
+    }
 
-	public Token token() {
-		return token;
-	}
-	
-	@Override
-	public String toString() {
-		return token + " " + value.toString();
-	}
+    public Token token() {
+        return token;
+    }
+
+    @Override
+    public String toString() {
+        return token + " " + value.toString();
+    }
 }

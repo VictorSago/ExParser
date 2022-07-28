@@ -3,23 +3,23 @@ package prop.assignment0;
 import java.io.IOException;
 
 public interface ITokenizer {
-	/**
-	 * Opens a file for tokenizing.
-	 */
-	void open(String fileName) throws IOException, TokenizerException;
-	
-	/**
-	 * Returns the current token in the stream.
-	 */
-	Lexeme current();
+    /**
+     * Opens a file for tokenizing.
+     */
+    void open(String fileName) throws IOException, TokenizerException;
 
-	/**
-	 * Moves current to the next token in the stream.
-	 */
-	void moveNext() throws IOException, TokenizerException;
+    /**
+     * Returns the current token in the stream.
+     */
+    Lexeme current();
 
-	/**
-	 * Closes the file and releases any system resources associated with it.
-	 */
-	public void close() throws IOException ;
+    /**
+     * Moves current to the next token in the stream.
+     */
+    void moveNext() throws IOException, TokenizerException;
+
+    /**
+     * Closes the file and releases any system resources associated with it.
+     */
+    public void close() throws IOException ;
 }

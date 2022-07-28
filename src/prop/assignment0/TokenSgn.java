@@ -12,15 +12,15 @@ package prop.assignment0;
  */
 public class TokenSgn {
 
-	public static final char 	ADD_SIGN 		= '+';
-	public static final char	SUB_SIGN 		= '-';
-	public static final char	MULT_SIGN 		= '*';
-	public static final char	DIV_SIGN 		= '/';
-	public static final char	LPAREN_SIGN 	= '(';
-	public static final char	RPAREN_SIGN 	= ')';
-	public static final char	LCURLY_SIGN 	= '{';
-	public static final char	RCURLY_SIGN 	= '}';
-	public static final char	EQ_SIGN 		= '=';
-	public static final char	SEMICOL_SIGN 	= ';';
+    public static final char 	ADD_SIGN 		= '+';
+    public static final char	SUB_SIGN 		= '-';
+    public static final char	MULT_SIGN 		= '*';
+    public static final char	DIV_SIGN 		= '/';
+    public static final char	LPAREN_SIGN 	= '(';
+    public static final char	RPAREN_SIGN 	= ')';
+    public static final char	LCURLY_SIGN 	= '{';
+    public static final char	RCURLY_SIGN 	= '}';
+    public static final char	EQ_SIGN 		= '=';
+    public static final char	SEMICOL_SIGN 	= ';';
 
 }
